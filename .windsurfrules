@@ -1,0 +1,39 @@
+# Project
+
+- This is the company website for Opto Software.
+- The Website should be mostly static
+- OptoSoftware is the developer of Optigrid.io, a SaaS platform for Eyewear Industry.
+- The look and feel is modern and eye-catching.
+- The website should be responsive and mobile-friendly.
+- The website should be fast and performant.
+
+# General Code Style & Formatting
+
+- Follow the Airbnb Style Guide for code formatting.
+- Use PascalCase for React component file names (e.g., UserCard.tsx, not user-card.tsx).
+- Prefer named exports for components.
+
+# Project Structure & Architecture
+
+- Follow Next.js patterns and use the App Router.
+- Correctly determine when to use server vs. client components in Next.js.
+- Prefer server components over client components when possible (e.g. no state management, no user interaction, etc).
+- Use server actions for server-side functions.
+
+# Styling & UI
+
+- Use Tailwind CSS for styling.
+- Use Shadcn UI for components.
+
+# Data Fetching & Forms
+
+- Use React Hook Form for form handling.
+- Use Zod for validation.
+
+# State Management & Logic
+
+- Use Zustand for state management.
+
+# Backend & Database
+
+Use drizzle for database access (if needed).
