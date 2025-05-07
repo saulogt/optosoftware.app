@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import { Button } from '@/components/ui/button';
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 export function Header() {
   return (
@@ -8,28 +8,32 @@ export function Header() {
         <Link href="/" className="flex items-center">
           <span className="font-bold text-xl text-primary">OptoSoftware</span>
         </Link>
-        
+
         <nav className="hidden md:flex items-center space-x-8">
-          <Link href="/features" className="text-gray-700 hover:text-primary transition-colors">
-            Features
+          <Link
+            href="/products"
+            className="text-gray-700 hover:text-primary transition-colors"
+          >
+            Products
           </Link>
-          <Link href="/pricing" className="text-gray-700 hover:text-primary transition-colors">
-            Pricing
-          </Link>
-          <Link href="/about" className="text-gray-700 hover:text-primary transition-colors">
+
+          <Link
+            href="/about"
+            className="text-gray-700 hover:text-primary transition-colors"
+          >
             About
           </Link>
-          <Link href="/contact" className="text-gray-700 hover:text-primary transition-colors">
+          <Link
+            href="/contact"
+            className="text-gray-700 hover:text-primary transition-colors"
+          >
             Contact
           </Link>
         </nav>
-        
+
         <div className="flex items-center space-x-4">
-          <Button variant="outline" className="hidden md:inline-flex">
-            Log in
-          </Button>
-          <Button>
-            Get Started
+          <Button asChild>
+            <a href="https://app.optigrid.io/">Get Started</a>
           </Button>
         </div>
       </div>
