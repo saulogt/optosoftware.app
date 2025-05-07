@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://optosoftware.app
+
+# Sitemaps
+Sitemap: https://optosoftware.app/sitemap.xml
