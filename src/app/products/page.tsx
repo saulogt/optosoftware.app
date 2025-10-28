@@ -23,15 +23,15 @@ export default function ProductsPage() {
         </div>
       </section>
 
-      {/* Main Product - Optigrid.io */}
+      {/* Main Product - Optogrid.io */}
       <section className="py-16 px-4">
         <div className="container mx-auto max-w-7xl">
           <div className="mb-16 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Optigrid.io
+              Optogrid.io
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              <a href="https://www.optigrid.io/">
+              <a href="https://www.optogrid.io/">
                 The premier SaaS platform for precise pupillary distance
                 measurement
               </a>
@@ -44,7 +44,7 @@ export default function ProductsPage() {
                 Precision PD Measurement for Eyewear Professionals
               </h3>
               <p className="text-lg text-gray-600 mb-6">
-                Optigrid.io revolutionizes how opticians and eyewear retailers
+                Optogrid.io revolutionizes how opticians and eyewear retailers
                 measure pupillary distance (PD), ensuring perfect fitting
                 glasses and improved customer satisfaction.
               </p>
@@ -77,12 +77,12 @@ export default function ProductsPage() {
               </ul>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="px-8" asChild>
-                  <a href="https://www.optigrid.io/">
-                    Lear more about Optigrid.io
+                  <a href="https://www.optogrid.io/">
+                    Lear more about Optogrid.io
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" className="px-8" asChild>
-                  <a href="https://app.optigrid.io/demo/">Watch Demo</a>
+                  <a href="https://app.optogrid.io/demo/">Watch Demo</a>
                 </Button>
               </div>
             </div>
@@ -124,7 +124,7 @@ export default function ProductsPage() {
           {/* How It Works */}
           <div className="mb-24">
             <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">
-              How Optigrid.io Works
+              How Optogrid.io Works
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {[
@@ -260,7 +260,7 @@ export default function ProductsPage() {
               Complete Eyewear Business Solutions
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Beyond Optigrid.io, OptoSoftware offers a comprehensive suite of
+              Beyond Optogrid.io, OptoSoftware offers a comprehensive suite of
               tools for eyewear professionals.
             </p>
           </div>
@@ -307,16 +307,16 @@ export default function ProductsPage() {
             Ready to Transform Your Eyewear Business?
           </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Join hundreds of optical businesses already using Optigrid.io and
+            Join hundreds of optical businesses already using Optogrid.io and
             our suite of tools to streamline operations and enhance customer
             experiences.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="px-8" asChild>
-              <a href="https://www.optigrid.io/">Start Free Trial</a>
+              <a href="https://www.optogrid.io/">Start Free Trial</a>
             </Button>
             <Button size="lg" variant="outline" className="px-8" asChild>
-              <a href="https://app.optigrid.io/demo/">Demo</a>
+              <a href="https://app.optogrid.io/demo/">Demo</a>
             </Button>
           </div>
         </div>

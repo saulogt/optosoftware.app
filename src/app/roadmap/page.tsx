@@ -30,8 +30,10 @@ export default function RoadmapPage() {
                 Upcoming Innovations
               </h2>
               <p className="text-lg text-gray-600 mb-12 max-w-3xl">
-                At OptoSoftware, we&apos;re constantly innovating to bring you the most advanced solutions for the eyewear industry. 
-                Here&apos;s a glimpse of what we&apos;re working on for the upcoming months.
+                At OptoSoftware, we&apos;re constantly innovating to bring you
+                the most advanced solutions for the eyewear industry.
+                Here&apos;s a glimpse of what we&apos;re working on for the
+                upcoming months.
               </p>
 
               <div className="space-y-12">
@@ -43,10 +45,17 @@ export default function RoadmapPage() {
                       PD Measurement Shopify App
                     </h3>
                     <p className="text-gray-600 mb-4">
-                      We&apos;re developing a seamless Shopify integration that will allow online eyewear retailers to offer precise pupillary distance measurements directly on their e-commerce stores. This will significantly improve the online shopping experience for customers and reduce return rates for retailers.
+                      We&apos;re developing a seamless Shopify integration that
+                      will allow online eyewear retailers to offer precise
+                      pupillary distance measurements directly on their
+                      e-commerce stores. This will significantly improve the
+                      online shopping experience for customers and reduce return
+                      rates for retailers.
                     </p>
                     <div className="flex items-center text-sm text-gray-500">
-                      <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full">Coming Soon</span>
+                      <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full">
+                        Coming Soon
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -59,10 +68,16 @@ export default function RoadmapPage() {
                       Expanding Branding to Optogrid
                     </h3>
                     <p className="text-gray-600 mb-4">
-                      We&apos;re introducing Optogrid as an alternative branding to Optigrid.io, creating a more versatile brand identity that resonates with a broader audience in the eyewear industry. This rebranding initiative will include a refreshed visual identity and expanded marketing presence.
+                      We&apos;re introducing Optogrid as an alternative branding
+                      to Optogrid.io, creating a more versatile brand identity
+                      that resonates with a broader audience in the eyewear
+                      industry. This rebranding initiative will include a
+                      refreshed visual identity and expanded marketing presence.
                     </p>
                     <div className="flex items-center text-sm text-gray-500">
-                      <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full">In Progress</span>
+                      <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full">
+                        In Progress
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -75,10 +90,17 @@ export default function RoadmapPage() {
                       Advanced AI PD Measurement Capabilities
                     </h3>
                     <p className="text-gray-600 mb-4">
-                      We&apos;re enhancing our PD measurement technology with more advanced AI capabilities. This upgrade will improve accuracy, reduce measurement time, and enable measurements in more challenging lighting conditions. The AI will also be able to detect and account for various eyewear frames, providing more precise measurements for different styles.
+                      We&apos;re enhancing our PD measurement technology with
+                      more advanced AI capabilities. This upgrade will improve
+                      accuracy, reduce measurement time, and enable measurements
+                      in more challenging lighting conditions. The AI will also
+                      be able to detect and account for various eyewear frames,
+                      providing more precise measurements for different styles.
                     </p>
                     <div className="flex items-center text-sm text-gray-500">
-                      <span className="px-3 py-1 bg-purple-100 text-purple-800 rounded-full">Research Phase</span>
+                      <span className="px-3 py-1 bg-purple-100 text-purple-800 rounded-full">
+                        Research Phase
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -91,10 +113,18 @@ export default function RoadmapPage() {
                       Future Innovations
                     </h3>
                     <p className="text-gray-600 mb-4">
-                      Our team is constantly researching and developing new technologies to address the evolving needs of the eyewear industry. While we can&apos;t reveal all the details yet, our upcoming innovations will focus on enhancing the customer experience, improving operational efficiency for optical businesses, and leveraging cutting-edge technologies to solve industry challenges.
+                      Our team is constantly researching and developing new
+                      technologies to address the evolving needs of the eyewear
+                      industry. While we can&apos;t reveal all the details yet,
+                      our upcoming innovations will focus on enhancing the
+                      customer experience, improving operational efficiency for
+                      optical businesses, and leveraging cutting-edge
+                      technologies to solve industry challenges.
                     </p>
                     <div className="flex items-center text-sm text-gray-500">
-                      <span className="px-3 py-1 bg-gray-100 text-gray-800 rounded-full">Planning</span>
+                      <span className="px-3 py-1 bg-gray-100 text-gray-800 rounded-full">
+                        Planning
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -114,7 +144,9 @@ export default function RoadmapPage() {
                   Want to Influence Our Roadmap?
                 </h2>
                 <p className="text-lg text-gray-600 mb-6">
-                  We value input from eyewear professionals. If you have ideas for features or improvements that would benefit your business, we&apos;d love to hear from you.
+                  We value input from eyewear professionals. If you have ideas
+                  for features or improvements that would benefit your business,
+                  we&apos;d love to hear from you.
                 </p>
                 <Button asChild size="lg">
                   <a href="/contact">Share Your Ideas</a>
@@ -156,7 +188,9 @@ export default function RoadmapPage() {
               Stay Updated on Our Progress
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
-              Subscribe to our newsletter to receive updates on our roadmap progress, new feature releases, and exclusive insights into the future of eyewear technology.
+              Subscribe to our newsletter to receive updates on our roadmap
+              progress, new feature releases, and exclusive insights into the
+              future of eyewear technology.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="px-8">

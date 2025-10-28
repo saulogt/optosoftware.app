@@ -156,10 +156,10 @@ export default function FeaturesPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="px-8" asChild>
-              <a href="https://www.optigrid.io">Start Free Trial</a>
+              <a href="https://www.optogrid.io">Start Free Trial</a>
             </Button>
             <Button size="lg" variant="outline" className="px-8" asChild>
-              <a href="https://app.optigrid.io/demo">Test our Demo</a>
+              <a href="https://app.optogrid.io/demo">Test our Demo</a>
             </Button>
           </div>
         </div>

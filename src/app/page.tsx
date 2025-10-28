@@ -253,7 +253,7 @@ export default function Home() {
             {[
               {
                 quote:
-                  "Optigrid has completely transformed how we sell online. The PD measurement tool is a game-changer.",
+                  "Optogrid has completely transformed how we sell online. The PD measurement tool is a game-changer.",
                 author: "Rosali Garcia",
                 role: "Owner, Optica Sarah",
               },
@@ -319,7 +319,7 @@ export default function Home() {
               variant="default"
               className="bg-white text-primary hover:bg-gray-100 px-8"
             >
-              <a href="https://www.optigrid.io">Start Free Trial</a>
+              <a href="https://www.optogrid.io">Start Free Trial</a>
             </Button>
             <Button
               asChild
@@ -327,7 +327,7 @@ export default function Home() {
               variant="default"
               className="bg-white text-primary hover:bg-gray-100 px-8"
             >
-              <a href="https://app.optigrid.io/demo">Test our Demo</a>
+              <a href="https://app.optogrid.io/demo">Test our Demo</a>
             </Button>
           </div>
         </div>

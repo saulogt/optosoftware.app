@@ -43,7 +43,7 @@ export default function AboutPage() {
                 eyewear retailers worldwide.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                Our flagship product, Optigrid.io, has revolutionized pupillary
+                Our flagship product, Optogrid.io, has revolutionized pupillary
                 distance measurement, performing over 1 million measurements and
                 counting. This achievement reflects our commitment to precision,
                 reliability, and continuous innovation in eyewear technology.
@@ -205,7 +205,7 @@ export default function AboutPage() {
               {
                 number: numberPDMeasurements,
                 label: "PD Measurements",
-                description: "Performed by Optigrid.io worldwide",
+                description: "Performed by Optogrid.io worldwide",
               },
               {
                 number: numberExperienceYears,
@@ -252,7 +252,7 @@ export default function AboutPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="px-8" asChild>
-              <a href="https://www.optigrid.io/">Explore Optigrid.io</a>
+              <a href="https://www.optogrid.io/">Explore Optogrid.io</a>
             </Button>
             <Button size="lg" variant="outline" className="px-8" asChild>
               <a href="/contact">Contact Our Team</a>

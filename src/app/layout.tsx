@@ -15,12 +15,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "OptoSoftware | Eyewear Industry SaaS Solutions",
   description:
-    "OptoSoftware is the developer of Optigrid.io, a SaaS platform for the Eyewear Industry.",
+    "OptoSoftware is the developer of Optogrid.io, a SaaS platform for the Eyewear Industry.",
   keywords: [
     "eyewear software",
     "optical industry",
     "SaaS",
-    "Optigrid",
+    "Optogrid",
     "eyewear management",
   ],
 };

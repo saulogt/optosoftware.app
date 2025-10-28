@@ -37,10 +37,10 @@ export default function ContactPage() {
                   For general inquiries and support:
                 </p>
                 <a
-                  href="mailto:support@optigrid.io"
+                  href="mailto:support@optogrid.io"
                   className="text-primary font-medium hover:underline"
                 >
-                  support@optigrid.io
+                  support@optogrid.io
                 </a>
               </div>
 
@@ -88,24 +88,24 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             {[
               {
-                question: "How accurate is Optigrid.io for PD measurements?",
+                question: "How accurate is Optogrid.io for PD measurements?",
                 answer:
-                  "Optigrid.io provides PD measurements with 0.1mm precision, ensuring highly accurate results for eyewear fitting.",
+                  "Optogrid.io provides PD measurements with 0.1mm precision, ensuring highly accurate results for eyewear fitting.",
               },
               {
-                question: "Do I need special equipment to use Optigrid.io?",
+                question: "Do I need special equipment to use Optogrid.io?",
                 answer:
-                  "No, Optigrid.io works with any device that has a camera, such as smartphones, tablets, or computers with webcams.",
+                  "No, Optogrid.io works with any device that has a camera, such as smartphones, tablets, or computers with webcams.",
               },
               {
                 question: "Is there a trial version available?",
                 answer:
-                  "Yes, we offer a free trial so you can experience the benefits of Optigrid.io before making a commitment.",
+                  "Yes, we offer a free trial so you can experience the benefits of Optogrid.io before making a commitment.",
               },
               {
-                question: "Can Optigrid.io integrate with my existing systems?",
+                question: "Can Optogrid.io integrate with my existing systems?",
                 answer:
-                  "Yes, Optigrid.io is designed to integrate seamlessly with most practice management and inventory systems used in the eyewear industry.",
+                  "Yes, Optogrid.io is designed to integrate seamlessly with most practice management and inventory systems used in the eyewear industry.",
               },
             ].map((faq, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-md">

@@ -70,7 +70,7 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="https://www.optigrid.io/blog"
+                  href="https://www.optogrid.io/blog"
                   className="text-gray-600 hover:text-primary transition-colors"
                 >
                   Blog
@@ -78,7 +78,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.optigrid.io/learn-more"
+                  href="https://www.optogrid.io/learn-more"
                   className="text-gray-600 hover:text-primary transition-colors"
                 >
                   Documentation
