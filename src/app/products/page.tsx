@@ -23,12 +23,12 @@ export default function ProductsPage() {
 				</div>
 			</section>
 
-			{/* Main Product - Optogrid.io */}
+			{/* Main Product - Optogrid */}
 			<section className="py-16 px-4">
 				<div className="container mx-auto max-w-7xl">
 					<div className="mb-16 text-center">
 						<h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-							Optogrid.io
+							Optogrid
 						</h2>
 						<p className="text-xl text-gray-600 max-w-3xl mx-auto">
 							<a href="https://www.optogrid.io/">
@@ -78,7 +78,7 @@ export default function ProductsPage() {
 							<div className="flex flex-col sm:flex-row gap-4">
 								<Button size="lg" className="px-8" asChild>
 									<a href="https://www.optogrid.io/">
-										Lear more about Optogrid.io
+										Lear more about Optogrid
 									</a>
 								</Button>
 								<Button size="lg" variant="outline" className="px-8" asChild>
@@ -124,7 +124,7 @@ export default function ProductsPage() {
 					{/* How It Works */}
 					<div className="mb-24">
 						<h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">
-							How Optogrid.io Works
+							How Optogrid Works
 						</h3>
 						<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 							{[
@@ -260,7 +260,7 @@ export default function ProductsPage() {
 							Complete Eyewear Business Solutions
 						</h2>
 						<p className="text-lg text-gray-600 max-w-3xl mx-auto">
-							Beyond Optogrid.io, OptoSoftware offers a comprehensive suite of
+							Beyond Optogrid, OptoSoftware offers a comprehensive suite of
 							tools for eyewear professionals.
 						</p>
 					</div>
@@ -307,8 +307,8 @@ export default function ProductsPage() {
 						Ready to Transform Your Eyewear Business?
 					</h2>
 					<p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-						Join hundreds of optical businesses already using Optogrid.io and
-						our suite of tools to streamline operations and enhance customer
+						Join hundreds of optical businesses already using Optogrid and our
+						suite of tools to streamline operations and enhance customer
 						experiences.
 					</p>
 					<div className="flex flex-col sm:flex-row gap-4 justify-center">

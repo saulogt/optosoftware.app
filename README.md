@@ -1,4 +1,4 @@
-This is the public [Optosoftware.app](https://optosoftware.app) website. Builders of [Optogrid.io](https://www.optogrid.io).
+This is the public [Optosoftware.app](https://optosoftware.app) website. Builders of [Optogrid](https://www.optogrid.io).
 
 ## Getting Started
 

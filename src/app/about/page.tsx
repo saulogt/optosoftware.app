@@ -205,7 +205,7 @@ export default function AboutPage() {
 							{
 								number: numberPDMeasurements,
 								label: "PD Measurements",
-								description: "Performed by Optogrid.io worldwide",
+								description: "Performed by Optogrid worldwide",
 							},
 							{
 								number: numberExperienceYears,
@@ -252,7 +252,7 @@ export default function AboutPage() {
 					</p>
 					<div className="flex flex-col sm:flex-row gap-4 justify-center">
 						<Button size="lg" className="px-8" asChild>
-							<a href="https://www.optogrid.io/">Explore Optogrid.io</a>
+							<a href="https://www.optogrid.io/">Explore Optogrid</a>
 						</Button>
 						<Button size="lg" variant="outline" className="px-8" asChild>
 							<a href="/contact">Contact Our Team</a>
