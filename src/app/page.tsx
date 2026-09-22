@@ -318,7 +318,7 @@ export default function Home() {
 							variant="default"
 							className="bg-white text-primary hover:bg-gray-100 px-8"
 						>
-							<a href="https://www.optogrid.io">Start Free Trial</a>
+							<a href="https://www.optogrid.com">Start Free Trial</a>
 						</Button>
 						<Button
 							asChild
@@ -326,7 +326,7 @@ export default function Home() {
 							variant="default"
 							className="bg-white text-primary hover:bg-gray-100 px-8"
 						>
-							<a href="https://app.optogrid.io/demo">Test our Demo</a>
+							<a href="https://app.optogrid.com/demo">Test our Demo</a>
 						</Button>
 					</div>
 				</div>

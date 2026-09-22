@@ -159,7 +159,7 @@ export default function FeaturesPage() {
 							<a href="https://www.optogrid.com">Start Free Trial</a>
 						</Button>
 						<Button size="lg" variant="outline" className="px-8" asChild>
-							<a href="https://app.optogrid.io/demo">Test our Demo</a>
+							<a href="https://app.optogrid.com/demo">Test our Demo</a>
 						</Button>
 					</div>
 				</div>

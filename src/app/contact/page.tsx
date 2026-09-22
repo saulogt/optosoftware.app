@@ -37,10 +37,10 @@ export default function ContactPage() {
 									For general inquiries and support:
 								</p>
 								<a
-									href="mailto:support@optogrid.io"
+									href="mailto:support@optogrid.com"
 									className="text-primary font-medium hover:underline"
 								>
-									support@optogrid.io
+									support@optogrid.com
 								</a>
 							</div>
 

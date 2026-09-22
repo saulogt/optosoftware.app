@@ -31,7 +31,7 @@ export default function ProductsPage() {
 							Optogrid
 						</h2>
 						<p className="text-xl text-gray-600 max-w-3xl mx-auto">
-							<a href="https://www.optogrid.io/">
+							<a href="https://www.optogrid.com/">
 								The premier SaaS platform for precise pupillary distance
 								measurement
 							</a>
@@ -77,12 +77,12 @@ export default function ProductsPage() {
 							</ul>
 							<div className="flex flex-col sm:flex-row gap-4">
 								<Button size="lg" className="px-8" asChild>
-									<a href="https://www.optogrid.io/">
+									<a href="https://www.optogrid.com/">
 										Lear more about Optogrid
 									</a>
 								</Button>
 								<Button size="lg" variant="outline" className="px-8" asChild>
-									<a href="https://app.optogrid.io/demo/">Watch Demo</a>
+									<a href="https://app.optogrid.com/demo/">Watch Demo</a>
 								</Button>
 							</div>
 						</div>
@@ -316,7 +316,7 @@ export default function ProductsPage() {
 							<a href="https://www.optogrid.com/">Start Free Trial</a>
 						</Button>
 						<Button size="lg" variant="outline" className="px-8" asChild>
-							<a href="https://app.optogrid.io/demo/">Demo</a>
+							<a href="https://app.optogrid.com/demo/">Demo</a>
 						</Button>
 					</div>
 				</div>

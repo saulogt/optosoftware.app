@@ -33,7 +33,7 @@ export function Header() {
 
         <div className="flex items-center space-x-4">
           <Button asChild>
-            <a href="https://app.optogrid.io/">Get Started</a>
+            <a href="https://app.optogrid.com/">Get Started</a>
           </Button>
         </div>
       </div>
