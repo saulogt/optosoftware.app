@@ -20,7 +20,7 @@ export default function AboutPage() {
 							About OptoSoftware
 						</h1>
 						<p className="text-xl text-gray-600 max-w-3xl mx-auto">
-							Pioneering eyewear technology solutions
+							A Canadian company that makes software for optical stores.
 						</p>
 					</div>
 				</div>
@@ -35,24 +35,15 @@ export default function AboutPage() {
 								Our Story
 							</h2>
 							<p className="text-lg text-gray-600 mb-6">
-								Founded in British Columbia, Canada, OptoSoftware founders have
-								over 30 years of experience in the eyewear industry and the same
-								amount of experience in software development. What began as an
-								idea to solve a real problem for our small family-run eyewear
-								business, has grown into innovative solutions for opticians and
-								eyewear retailers worldwide.
-							</p>
-							<p className="text-lg text-gray-600 mb-6">
-								Our flagship product, Optogrid, has streamlined pupillary
-								distance measurement, performing over 1 million measurements and
-								counting. This achievement reflects our commitment to precision,
-								reliability, and continuous innovation in eyewear technology.
+								OptoSoftware started in British Columbia, Canada. Our founders
+								have spent more than 30 years in the eyewear business, and about
+								as long writing software. The first thing we built was a fix for
+								a problem in our own family-run eyewear store.
 							</p>
 							<p className="text-lg text-gray-600">
-								Based in beautiful British Columbia, our team combines deep
-								industry knowledge with cutting-edge technology to create
-								solutions that address the real challenges faced by eyewear
-								professionals every day.
+								That fix became Optogrid. It measures pupillary distance from a
+								photo, and opticians and eyewear retailers in many countries
+								have used it to take more than 1 million measurements.
 							</p>
 						</div>
 						<div className="relative h-[400px] rounded-xl overflow-hidden shadow-lg">
@@ -84,27 +75,27 @@ export default function AboutPage() {
 							Our Mission
 						</h2>
 						<p className="text-xl text-gray-600 max-w-3xl mx-auto mb-12">
-							To empower eyewear professionals with innovative technology that
-							enhances precision, efficiency, and customer satisfaction.
+							Help opticians take accurate measurements quickly, whether the
+							customer is at the counter or at home.
 						</p>
 					</div>
 
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 						{[
 							{
-								title: "Innovation",
+								title: "Practical",
 								description:
-									"We continuously push the boundaries of what&apos;s possible in eyewear technology, developing solutions that solve real-world problems.",
+									"We build for problems we've seen in optical stores, like getting a PD from a customer who bought glasses online.",
 							},
 							{
-								title: "Precision",
+								title: "Accurate",
 								description:
-									"We're committed to accuracy in every measurement, ensuring perfect-fitting eyewear and satisfied customers.",
+									"A PD that's off by a couple of millimetres can mean a remade lens, so accuracy comes first.",
 							},
 							{
-								title: "Accessibility",
+								title: "Affordable",
 								description:
-									"We believe advanced technology should be accessible to all eyewear professionals, regardless of practice size.",
+									"Pricing works for a single-location shop, not just large chains.",
 							},
 						].map((value, index) => (
 							<div key={index} className="bg-white p-8 rounded-lg shadow-md">
@@ -124,20 +115,11 @@ export default function AboutPage() {
 					<div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 						<div>
 							<h2 className="text-3xl font-bold text-gray-900 mb-6">
-								Our Home in British Columbia
+								Based in Vancouver
 							</h2>
-							<p className="text-lg text-gray-600 mb-6">
-								Located in the heart of British Columbia, Canada, our
-								headquarters draws inspiration from the natural beauty that
-								surrounds us. The innovative spirit of the Pacific Northwest
-								tech scene combined with our deep roots in the eyewear industry
-								creates the perfect environment for developing groundbreaking
-								solutions.
-							</p>
 							<p className="text-lg text-gray-600 mb-8">
-								From our Canadian base, we serve eyewear professionals across
-								North America and beyond, bringing precision and efficiency to
-								optical practices worldwide.
+								We&apos;re based in Vancouver, British Columbia, and work with
+								eyewear businesses across North America and beyond.
 							</p>
 							<Button asChild>
 								<a href="/contact">Contact Us</a>
@@ -193,11 +175,8 @@ export default function AboutPage() {
 				<div className="container mx-auto max-w-7xl">
 					<div className="text-center mb-12">
 						<h2 className="text-3xl font-bold text-gray-900 mb-6">
-							Our Achievements
+							By the Numbers
 						</h2>
-						<p className="text-xl text-gray-600 max-w-3xl mx-auto mb-12">
-							Milestones that mark our journey of innovation
-						</p>
 					</div>
 
 					<div className="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -205,7 +184,7 @@ export default function AboutPage() {
 							{
 								number: numberPDMeasurements,
 								label: "PD Measurements",
-								description: "Performed by Optogrid worldwide",
+								description: "Taken with Optogrid",
 							},
 							{
 								number: numberExperienceYears,
@@ -215,7 +194,7 @@ export default function AboutPage() {
 							{
 								number: numberOpticalStores,
 								label: "Optical Stores",
-								description: "Using our solutions daily",
+								description: "Using Optogrid",
 							},
 							{
 								number: "0.1 mm",
@@ -244,18 +223,17 @@ export default function AboutPage() {
 			<section className="py-16 px-4 bg-gray-50">
 				<div className="container mx-auto max-w-5xl text-center">
 					<h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-						Join the OptoSoftware Family
+						See Optogrid for Yourself
 					</h2>
 					<p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-						Experience the difference that 30+ years of eyewear industry
-						expertise can make for your business.
+						Take a look at Optogrid, or send us a question.
 					</p>
 					<div className="flex flex-col sm:flex-row gap-4 justify-center">
 						<Button size="lg" className="px-8" asChild>
 							<a href="https://www.optogrid.com/">Explore Optogrid</a>
 						</Button>
 						<Button size="lg" variant="outline" className="px-8" asChild>
-							<a href="/contact">Contact Our Team</a>
+							<a href="/contact">Contact Us</a>
 						</Button>
 					</div>
 				</div>

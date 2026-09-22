@@ -14,20 +14,20 @@ export default function Home() {
 					<div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 						<div>
 							<h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-gray-900 mb-6">
-								<span className="text-primary">Eyewear Industry</span> with
-								Smart Solutions
+								We build software for{" "}
+								<span className="text-primary">optical stores</span>
 							</h1>
 							<p className="text-xl text-gray-600 mb-8 max-w-lg">
-								OptoSoftware delivers cutting-edge SaaS solutions designed
-								specifically for optical businesses. Streamline operations,
-								enhance customer experience, and boost your bottom line.
+								OptoSoftware makes Optogrid, a tool that measures PD, Dual PD
+								and segment height from a customer&apos;s photo. We started it
+								to fix a problem in our own family&apos;s eyewear store.
 							</p>
 							<div className="flex flex-col sm:flex-row gap-4">
-								<Button size="lg" className="px-8">
-									Get Started
+								<Button size="lg" className="px-8" asChild>
+									<a href="https://app.optogrid.com/">Get Started</a>
 								</Button>
-								<Button size="lg" variant="outline" className="px-8">
-									Book a Demo
+								<Button size="lg" variant="outline" className="px-8" asChild>
+									<a href="https://app.optogrid.com/demo">Try the Demo</a>
 								</Button>
 							</div>
 							<div className="mt-8 flex items-center">
@@ -42,8 +42,9 @@ export default function Home() {
 									))}
 								</div>
 								<p className="ml-4 text-sm text-gray-600">
+									Used by{" "}
 									<span className="font-semibold">{numberOpticalStores}</span>{" "}
-									optical businesses trust OptoSoftware
+									optical stores
 								</p>
 							</div>
 						</div>
@@ -81,20 +82,20 @@ export default function Home() {
 				<div className="container mx-auto max-w-7xl">
 					<div className="text-center mb-16">
 						<h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-							Powerful Features for Optical Businesses
+							What Optogrid Does
 						</h2>
 						<p className="text-xl text-gray-600 max-w-3xl mx-auto">
-							Our platform offers everything you need to manage your eyewear
-							business efficiently and effectively.
+							Measure customers in the store or at home, and keep every
+							measurement on file.
 						</p>
 					</div>
 
 					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 						{[
 							{
-								title: "Inventory Management",
+								title: "PD and Dual PD",
 								description:
-									"Track your frames, lenses, and accessories with real-time inventory updates and automated reordering.",
+									"Measure single or dual PD from one photo. A credit card in the picture sets the scale.",
 								icon: (
 									<svg
 										className="w-6 h-6"
@@ -107,36 +108,15 @@ export default function Home() {
 											strokeLinecap="round"
 											strokeLinejoin="round"
 											strokeWidth={2}
-											d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+											d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9zM15 13a3 3 0 11-6 0 3 3 0 016 0z"
 										/>
 									</svg>
 								),
 							},
 							{
-								title: "Patient Records",
+								title: "Segment Height",
 								description:
-									"Maintain comprehensive patient records including prescriptions, purchase history, and appointment scheduling.",
-								icon: (
-									<svg
-										className="w-6 h-6"
-										fill="none"
-										stroke="currentColor"
-										viewBox="0 0 24 24"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											strokeLinecap="round"
-											strokeLinejoin="round"
-											strokeWidth={2}
-											d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-										/>
-									</svg>
-								),
-							},
-							{
-								title: "Prescription Management",
-								description:
-									"Digital prescription management with automatic error checking and integration with lens manufacturers.",
+									"Get fitting heights for progressive and multifocal lenses from a photo of the customer wearing the frame.",
 								icon: (
 									<svg
 										className="w-6 h-6"
@@ -155,51 +135,9 @@ export default function Home() {
 								),
 							},
 							{
-								title: "Point of Sale",
+								title: "Patient Link",
 								description:
-									"Streamlined checkout process with integrated payment processing, discounts, and insurance billing.",
-								icon: (
-									<svg
-										className="w-6 h-6"
-										fill="none"
-										stroke="currentColor"
-										viewBox="0 0 24 24"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											strokeLinecap="round"
-											strokeLinejoin="round"
-											strokeWidth={2}
-											d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"
-										/>
-									</svg>
-								),
-							},
-							{
-								title: "Analytics Dashboard",
-								description:
-									"Gain insights into sales trends, inventory performance, and customer behavior with advanced analytics.",
-								icon: (
-									<svg
-										className="w-6 h-6"
-										fill="none"
-										stroke="currentColor"
-										viewBox="0 0 24 24"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											strokeLinecap="round"
-											strokeLinejoin="round"
-											strokeWidth={2}
-											d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
-										/>
-									</svg>
-								),
-							},
-							{
-								title: "Customer Engagement",
-								description:
-									"Automated appointment reminders, follow-ups, and marketing campaigns to keep your customers coming back.",
+									"Send customers a link to upload their photo from home, so they don't need a second trip to the store.",
 								icon: (
 									<svg
 										className="w-6 h-6"
@@ -213,6 +151,69 @@ export default function Home() {
 											strokeLinejoin="round"
 											strokeWidth={2}
 											d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"
+										/>
+									</svg>
+								),
+							},
+							{
+								title: "Saved Measurements",
+								description:
+									"Every measurement is stored. Look up a returning customer instead of asking for a new photo.",
+								icon: (
+									<svg
+										className="w-6 h-6"
+										fill="none"
+										stroke="currentColor"
+										viewBox="0 0 24 24"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											strokeLinecap="round"
+											strokeLinejoin="round"
+											strokeWidth={2}
+											d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+										/>
+									</svg>
+								),
+							},
+							{
+								title: "Online Store Integration",
+								description:
+									"Connect Shopify or Nuvemshop and the measurements are attached to the customer's order.",
+								icon: (
+									<svg
+										className="w-6 h-6"
+										fill="none"
+										stroke="currentColor"
+										viewBox="0 0 24 24"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											strokeLinecap="round"
+											strokeLinejoin="round"
+											strokeWidth={2}
+											d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
+										/>
+									</svg>
+								),
+							},
+							{
+								title: "No Special Equipment",
+								description:
+									"Works in the browser on a phone, tablet or computer. You don't need a pupillometer.",
+								icon: (
+									<svg
+										className="w-6 h-6"
+										fill="none"
+										stroke="currentColor"
+										viewBox="0 0 24 24"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											strokeLinecap="round"
+											strokeLinejoin="round"
+											strokeWidth={2}
+											d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"
 										/>
 									</svg>
 								),
@@ -240,11 +241,10 @@ export default function Home() {
 				<div className="container mx-auto max-w-7xl">
 					<div className="text-center mb-16">
 						<h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-							Trusted by Optical Professionals
+							What Customers Say
 						</h2>
 						<p className="text-xl text-gray-600 max-w-3xl mx-auto">
-							See what our customers have to say about how OptoSoftware has
-							transformed their businesses.
+							From optical stores that use Optogrid every day.
 						</p>
 					</div>
 
@@ -305,11 +305,11 @@ export default function Home() {
 			<section className="py-20 bg-primary px-4">
 				<div className="container mx-auto max-w-5xl text-center">
 					<h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-						Ready to Transform Your Optical Business?
+						Try Optogrid
 					</h2>
 					<p className="text-xl text-white/80 mb-8 max-w-3xl mx-auto">
-						Join hundreds of optical businesses already using OptoSoftware to
-						streamline operations and enhance customer experiences.
+						Start for free, or open the demo to see how a measurement works. No
+						credit card needed.
 					</p>
 					<div className="flex flex-col sm:flex-row gap-4 justify-center">
 						<Button
@@ -326,7 +326,7 @@ export default function Home() {
 							variant="default"
 							className="bg-white text-primary hover:bg-gray-100 px-8"
 						>
-							<a href="https://app.optogrid.com/demo">Test our Demo</a>
+							<a href="https://app.optogrid.com/demo">Try the Demo</a>
 						</Button>
 					</div>
 				</div>

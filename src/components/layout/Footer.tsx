@@ -8,7 +8,7 @@ export function Footer() {
           <div>
             <h3 className="font-bold text-lg mb-4">OptoSoftware</h3>
             <p className="text-gray-600 mb-4">
-              Empowering the eyewear industry with innovative SaaS solutions.
+              Software for optical stores. Makers of Optogrid.
             </p>
           </div>
 
@@ -70,7 +70,7 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="https://www.optogrid.com/blog"
+                  href="https://www.optogrid.com/blog/"
                   className="text-gray-600 hover:text-primary transition-colors"
                 >
                   Blog
@@ -78,7 +78,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.optogrid.com/learn-more"
+                  href="https://www.optogrid.com/learn/"
                   className="text-gray-600 hover:text-primary transition-colors"
                 >
                   Documentation

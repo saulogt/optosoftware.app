@@ -12,10 +12,10 @@ export default function RoadmapPage() {
 				<div className="container mx-auto max-w-7xl">
 					<div className="text-center mb-12">
 						<h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-							Our Roadmap
+							Roadmap
 						</h1>
 						<p className="text-xl text-gray-600 max-w-3xl mx-auto">
-							The future of OptoSoftware and our vision for innovation
+							What we&apos;re working on next.
 						</p>
 					</div>
 				</div>
@@ -27,13 +27,10 @@ export default function RoadmapPage() {
 					<div className="grid grid-cols-1 gap-12 mb-16">
 						<div>
 							<h2 className="text-3xl font-bold text-gray-900 mb-6">
-								Upcoming Innovations
+								In the Works
 							</h2>
 							<p className="text-lg text-gray-600 mb-12 max-w-3xl">
-								At OptoSoftware, we&apos;re constantly innovating to bring you
-								the most advanced solutions for the eyewear industry.
-								Here&apos;s a glimpse of what we&apos;re working on for the
-								upcoming months.
+								Here&apos;s what we&apos;re building now.
 							</p>
 
 							<div className="space-y-12">
@@ -45,12 +42,9 @@ export default function RoadmapPage() {
 											PD Measurement Shopify App
 										</h3>
 										<p className="text-gray-600 mb-4">
-											We&apos;re developing a seamless Shopify integration that
-											will allow online eyewear retailers to offer precise
-											pupillary distance measurements directly on their
-											e-commerce stores. This will significantly improve the
-											online shopping experience for customers and reduce return
-											rates for retailers.
+											A Shopify app that lets customers measure their PD without
+											leaving your store. Fewer abandoned carts, and fewer
+											glasses sent back because the PD was wrong.
 										</p>
 										<div className="flex items-center text-sm text-gray-500">
 											<span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full">
@@ -65,65 +59,17 @@ export default function RoadmapPage() {
 									<div className="absolute -left-2 top-0 w-4 h-4 bg-primary rounded-full"></div>
 									<div className="bg-white p-6 rounded-lg shadow-md">
 										<h3 className="text-xl font-bold text-gray-900 mb-2">
-											Expanding Branding to Optogrid
+											Better Automatic Measurement
 										</h3>
 										<p className="text-gray-600 mb-4">
-											We&apos;re introducing Optogrid as an alternative branding
-											to Optogrid, creating a more versatile brand identity that
-											resonates with a broader audience in the eyewear industry.
-											This rebranding initiative will include a refreshed visual
-											identity and expanded marketing presence.
-										</p>
-										<div className="flex items-center text-sm text-gray-500">
-											<span className="px-3 py-1 bg-green-100 text-green-800 rounded-full">
-												In Progress
-											</span>
-										</div>
-									</div>
-								</div>
-
-								{/* Roadmap Item 3 */}
-								<div className="relative pl-8 border-l-2 border-primary">
-									<div className="absolute -left-2 top-0 w-4 h-4 bg-primary rounded-full"></div>
-									<div className="bg-white p-6 rounded-lg shadow-md">
-										<h3 className="text-xl font-bold text-gray-900 mb-2">
-											Advanced AI PD Measurement Capabilities
-										</h3>
-										<p className="text-gray-600 mb-4">
-											We&apos;re enhancing our PD measurement technology with
-											more advanced AI capabilities. This upgrade will improve
-											accuracy, reduce measurement time, and enable measurements
-											in more challenging lighting conditions. The AI will also
-											be able to detect and account for various eyewear frames,
-											providing more precise measurements for different styles.
+											We&apos;re improving the AI behind the measurements so
+											it&apos;s more accurate, faster, and handles poor lighting
+											better. It will also recognize different frames, so fitting
+											measurements work across more styles.
 										</p>
 										<div className="flex items-center text-sm text-gray-500">
 											<span className="px-3 py-1 bg-purple-100 text-purple-800 rounded-full">
 												Research Phase
-											</span>
-										</div>
-									</div>
-								</div>
-
-								{/* Roadmap Item 4 */}
-								<div className="relative pl-8 border-l-2 border-primary">
-									<div className="absolute -left-2 top-0 w-4 h-4 bg-primary rounded-full"></div>
-									<div className="bg-white p-6 rounded-lg shadow-md">
-										<h3 className="text-xl font-bold text-gray-900 mb-2">
-											Future Innovations
-										</h3>
-										<p className="text-gray-600 mb-4">
-											Our team is constantly researching and developing new
-											technologies to address the evolving needs of the eyewear
-											industry. While we can&apos;t reveal all the details yet,
-											our upcoming innovations will focus on enhancing the
-											customer experience, improving operational efficiency for
-											optical businesses, and leveraging cutting-edge
-											technologies to solve industry challenges.
-										</p>
-										<div className="flex items-center text-sm text-gray-500">
-											<span className="px-3 py-1 bg-gray-100 text-gray-800 rounded-full">
-												Planning
 											</span>
 										</div>
 									</div>
@@ -141,12 +87,10 @@ export default function RoadmapPage() {
 						<div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
 							<div>
 								<h2 className="text-3xl font-bold text-gray-900 mb-4">
-									Want to Influence Our Roadmap?
+									Have an Idea?
 								</h2>
 								<p className="text-lg text-gray-600 mb-6">
-									We value input from eyewear professionals. If you have ideas
-									for features or improvements that would benefit your business,
-									we&apos;d love to hear from you.
+									If something would save you time in the store, tell us.
 								</p>
 								<Button asChild size="lg">
 									<a href="/contact">Share Your Ideas</a>
@@ -170,7 +114,7 @@ export default function RoadmapPage() {
 											/>
 										</svg>
 										<div className="text-xl text-center text-gray-700">
-											Help shape the future of eyewear technology
+											Tell us what you need
 										</div>
 									</div>
 								</div>
@@ -185,16 +129,15 @@ export default function RoadmapPage() {
 				<div className="container mx-auto max-w-7xl">
 					<div className="text-center mb-12">
 						<h2 className="text-3xl font-bold text-gray-900 mb-4">
-							Stay Updated on Our Progress
+							Follow Along
 						</h2>
 						<p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
-							Subscribe to our newsletter to receive updates on our roadmap
-							progress, new feature releases, and exclusive insights into the
-							future of eyewear technology.
+							We post product news and guides for opticians on the Optogrid
+							blog.
 						</p>
 						<div className="flex flex-col sm:flex-row gap-4 justify-center">
-							<Button size="lg" className="px-8">
-								Subscribe to Updates
+							<Button size="lg" className="px-8" asChild>
+								<a href="https://www.optogrid.com/blog/">Read the Blog</a>
 							</Button>
 						</div>
 					</div>

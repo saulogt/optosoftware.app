@@ -14,8 +14,7 @@ export default function ContactPage() {
 							Contact Us
 						</h1>
 						<p className="text-xl text-gray-600 max-w-3xl mx-auto">
-							We&apos;d love to hear from you. Reach out with any questions
-							about our products or services.
+							Questions about Optogrid or your account? Send us an email.
 						</p>
 					</div>
 				</div>
@@ -31,11 +30,9 @@ export default function ContactPage() {
 						<div className="space-y-8">
 							<div>
 								<h3 className="text-lg font-semibold text-gray-900 mb-2">
-									Email Us
+									Email
 								</h3>
-								<p className="text-gray-600 mb-2">
-									For general inquiries and support:
-								</p>
+								<p className="text-gray-600 mb-2">For questions and support:</p>
 								<a
 									href="mailto:support@optogrid.com"
 									className="text-primary font-medium hover:underline"
@@ -79,10 +76,6 @@ export default function ContactPage() {
 						<h2 className="text-3xl font-bold text-gray-900 mb-4">
 							Frequently Asked Questions
 						</h2>
-						<p className="text-lg text-gray-600 max-w-3xl mx-auto">
-							Find quick answers to common questions about our products and
-							services.
-						</p>
 					</div>
 
 					<div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -90,22 +83,22 @@ export default function ContactPage() {
 							{
 								question: "How accurate is Optogrid for PD measurements?",
 								answer:
-									"Optogrid provides PD measurements with 0.1mm precision, ensuring highly accurate results for eyewear fitting.",
+									"Optogrid measures PD with 0.1 mm precision. For the best result, take the photo in good light, look straight at the camera, and keep a credit card in the picture as a size reference.",
 							},
 							{
 								question: "Do I need special equipment to use Optogrid?",
 								answer:
-									"No, Optogrid works with any device that has a camera, such as smartphones, tablets, or computers with webcams.",
+									"No. You need a phone, tablet or computer with a camera, and a standard credit card to use as a size reference.",
 							},
 							{
-								question: "Is there a trial version available?",
+								question: "Is there a free trial?",
 								answer:
-									"Yes, we offer a free trial so you can experience the benefits of Optogrid before making a commitment.",
+									"Yes. You can start for free with no credit card. There's also a demo at app.optogrid.com/demo.",
 							},
 							{
-								question: "Can Optogrid integrate with my existing systems?",
+								question: "Does Optogrid work with my online store?",
 								answer:
-									"Yes, Optogrid is designed to integrate seamlessly with most practice management and inventory systems used in the eyewear industry.",
+									"Optogrid connects to Shopify and Nuvemshop and attaches the measurements to the customer's order. If you use another platform, email us.",
 							},
 						].map((faq, index) => (
 							<div key={index} className="bg-white p-6 rounded-lg shadow-md">

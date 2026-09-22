@@ -1,7 +1,6 @@
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
 
 export default function ProductsPage() {
 	return (
@@ -13,11 +12,10 @@ export default function ProductsPage() {
 				<div className="container mx-auto max-w-7xl">
 					<div className="text-center mb-12">
 						<h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-							OptoSoftware Products
+							Products
 						</h1>
 						<p className="text-xl text-gray-600 max-w-3xl mx-auto">
-							Innovative solutions designed specifically for the eyewear
-							industry.
+							Right now we make one product: Optogrid.
 						</p>
 					</div>
 				</div>
@@ -32,8 +30,7 @@ export default function ProductsPage() {
 						</h2>
 						<p className="text-xl text-gray-600 max-w-3xl mx-auto">
 							<a href="https://www.optogrid.com/">
-								The premier SaaS platform for precise pupillary distance
-								measurement
+								Measure PD, Dual PD and segment height from a photo
 							</a>
 						</p>
 					</div>
@@ -41,20 +38,21 @@ export default function ProductsPage() {
 					<div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-24">
 						<div>
 							<h3 className="text-2xl font-bold text-gray-900 mb-4">
-								Precision PD Measurement for Eyewear Professionals
+								PD Measurement Without a Pupillometer
 							</h3>
 							<p className="text-lg text-gray-600 mb-6">
-								Optogrid revolutionizes how opticians and eyewear retailers
-								measure pupillary distance (PD), ensuring perfect fitting
-								glasses and improved customer satisfaction.
+								Your customer takes a photo with a credit card as a size
+								reference, and Optogrid works out their pupillary distance (PD)
+								from it. You can take the order without a store visit, and it
+								works just as well at the counter.
 							</p>
 							<ul className="space-y-3 mb-8">
 								{[
-									"Accurate to 0.1mm precision",
-									"Works with any device with a camera",
-									"No specialized equipment needed",
-									"Results in seconds",
-									"Integrates with your existing systems",
+									"PD, Dual PD and segment height",
+									"0.1 mm precision",
+									"Runs in the browser on a phone, tablet or computer",
+									"No special equipment, just a credit card for scale",
+									"Connects to Shopify and Nuvemshop",
 								].map((item, i) => (
 									<li key={i} className="flex items-start">
 										<svg
@@ -78,11 +76,11 @@ export default function ProductsPage() {
 							<div className="flex flex-col sm:flex-row gap-4">
 								<Button size="lg" className="px-8" asChild>
 									<a href="https://www.optogrid.com/">
-										Lear more about Optogrid
+										Learn More About Optogrid
 									</a>
 								</Button>
 								<Button size="lg" variant="outline" className="px-8" asChild>
-									<a href="https://app.optogrid.com/demo/">Watch Demo</a>
+									<a href="https://app.optogrid.com/demo">Try the Demo</a>
 								</Button>
 							</div>
 						</div>
@@ -131,7 +129,7 @@ export default function ProductsPage() {
 								{
 									title: "Capture",
 									description:
-										"Take a simple photo of your customer using any smartphone or tablet with our app.",
+										"Send the customer a link, or take the photo yourself in the store. A credit card in the picture sets the scale.",
 									icon: (
 										<svg
 											className="w-12 h-12 text-primary"
@@ -156,9 +154,9 @@ export default function ProductsPage() {
 									),
 								},
 								{
-									title: "Analyze",
+									title: "Measure",
 									description:
-										"Our advanced AI algorithms instantly analyze the image and calculate precise PD measurements.",
+										"Optogrid uses the card to set the scale and calculates PD, Dual PD and segment height.",
 									icon: (
 										<svg
 											className="w-12 h-12 text-primary"
@@ -177,9 +175,9 @@ export default function ProductsPage() {
 									),
 								},
 								{
-									title: "Apply",
+									title: "Order",
 									description:
-										"Use the accurate measurements to order or adjust eyewear with confidence.",
+										"Send the numbers to the lab with the order. The measurement stays on file if you need it again.",
 									icon: (
 										<svg
 											className="w-12 h-12 text-primary"
@@ -215,29 +213,29 @@ export default function ProductsPage() {
 					{/* Benefits */}
 					<div className="mb-24">
 						<h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">
-							Benefits for Your Business
+							Why Opticians Use It
 						</h3>
 						<div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 							{[
 								{
-									title: "Increased Accuracy",
+									title: "Fewer Remakes",
 									description:
-										"Reduce errors in eyewear prescriptions with precise PD measurements that ensure perfect fitting glasses.",
+										"Getting the PD right the first time means fewer lenses sent back to the lab.",
 								},
 								{
-									title: "Time Savings",
+									title: "Sell Online",
 									description:
-										"Get instant measurements without manual tools, speeding up the customer experience.",
+										"Customers who buy from your website can send their PD without coming in.",
 								},
 								{
-									title: "Enhanced Customer Experience",
+									title: "Less Time at the Counter",
 									description:
-										"Impress customers with modern technology that delivers better-fitting eyewear.",
+										"Measure in the store from a photo instead of with a ruler or pen dots.",
 								},
 								{
-									title: "Reduced Returns",
+									title: "Reuse Measurements",
 									description:
-										"Minimize costly returns and adjustments by getting measurements right the first time.",
+										"Every measurement is saved, so returning customers don't need to send a new photo.",
 								},
 							].map((benefit, index) => (
 								<div key={index} className="bg-white p-6 rounded-lg shadow-md">
@@ -252,71 +250,21 @@ export default function ProductsPage() {
 				</div>
 			</section>
 
-			{/* Additional Products Section */}
-			<section className="py-16 px-4 bg-gray-50">
-				<div className="container mx-auto max-w-7xl">
-					<div className="text-center mb-12">
-						<h2 className="text-3xl font-bold text-gray-900 mb-4">
-							Complete Eyewear Business Solutions
-						</h2>
-						<p className="text-lg text-gray-600 max-w-3xl mx-auto">
-							Beyond Optogrid, OptoSoftware offers a comprehensive suite of
-							tools for eyewear professionals.
-						</p>
-					</div>
-
-					<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-						{[
-							{
-								title: "Inventory Management",
-								description:
-									"Keep track of your entire inventory with real-time updates, low stock alerts, and automated reordering.",
-							},
-							{
-								title: "Patient Records & CRM",
-								description:
-									"Maintain comprehensive patient records with medical history, prescriptions, and purchase history.",
-							},
-							{
-								title: "Point of Sale",
-								description:
-									"Streamline your checkout process with our integrated POS system designed for eyewear retailers.",
-							},
-						].map((product, index) => (
-							<div key={index} className="bg-white p-6 rounded-lg shadow-md">
-								<h3 className="text-xl font-bold text-gray-900 mb-2">
-									{product.title}
-								</h3>
-								<p className="text-gray-600 mb-4">{product.description}</p>
-								<Link
-									href="#"
-									className="text-primary hover:underline font-medium"
-								>
-									Learn more →
-								</Link>
-							</div>
-						))}
-					</div>
-				</div>
-			</section>
-
 			{/* CTA Section */}
 			<section className="py-16 px-4">
 				<div className="container mx-auto max-w-5xl text-center">
 					<h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-						Ready to Transform Your Eyewear Business?
+						Try Optogrid
 					</h2>
 					<p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-						Join hundreds of optical businesses already using Optogrid and our
-						suite of tools to streamline operations and enhance customer
-						experiences.
+						Start for free, or open the demo to see how a measurement works.
 					</p>
 					<div className="flex flex-col sm:flex-row gap-4 justify-center">
 						<Button size="lg" className="px-8" asChild>
 							<a href="https://www.optogrid.com/">Start Free Trial</a>
 						</Button>
 						<Button size="lg" variant="outline" className="px-8" asChild>
-							<a href="https://app.optogrid.com/demo/">Demo</a>
+							<a href="https://app.optogrid.com/demo">Try the Demo</a>
 						</Button>
 					</div>
 				</div>
